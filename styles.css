@@ -1,0 +1,63 @@
+html{
+    font-family: sans-serif;
+
+}
+.formContainer{
+    width: 60%;
+    border: 3px solid black ;
+    margin:auto
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 10px;
+    color: #1abc9c;
+    font-size: 100px;
+    margin:0 
+  }
+
+
+.formBody{
+    margin:auto
+}
+
+.formIdentification{
+    text-align: center;
+}
+
+.idHeader{
+    background-color: #1abc9c;
+    color:white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight:bolder;
+    padding:5px;
+    
+}
+.infoList{
+    text-align: left;
+    font-size: 18px;
+    font-weight:bolder;
+    list-style: none;
+
+}
+
+
+.idInfo li {
+    display: inline;
+}
+
+.idInput li {
+    display:inline;
+    margin:0;
+}
+
+.form__input {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    transition: all 0.3s;
+    margin-right: 50px
+  }
