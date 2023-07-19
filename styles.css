@@ -125,7 +125,7 @@ html{
     align-items: flex-start;
   }
 
-  .formQuestions{
+  .formQuestionsHeader{
     display: flex;
     justify-content: space-evenly;
     gap: 1em;
@@ -151,4 +151,39 @@ html{
     padding:5px;
     text-align: center;
     flex:1
+  }
+
+  .formQuestions{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    gap: 1em;
+  }
+
+  .questions{
+    flex:1;
+    padding: 2px;
+    margin: 2px;
+
+  }
+
+  .rating{
+    display: flex;
+    justify-content: space-evenly;
+
+    flex: 1;
+    padding: 2px;
+    margin: 2px;
+
+  }
+
+  .ratingScale{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .radioRating{
+    height: 4vh;
+    width: 4vw;
   }
