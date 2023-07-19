@@ -1,35 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Surey</title>
+    <title>Survey</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-   
+
 <body style="margin: 0;">
-    <div class ="formContainer">
+    <div class ="formContainer" >
         <div class ="header">
             SURVEY
         </div>
-        <div class ="formBody">
-            <div class="formIdentification">
-                <div class="idHeader">
-                    PERSONAL INFORMATION
-                </div>
+    <div class ="formBody">
+        <div class="formIdentification">
+            <div class="idHeader">
+                PERSONAL INFORMATION
+            </div>
+            <div class="idInfoContainer">
                 <div class="idInfo">
-                    <ul class="infoList">
-                        <li>Name</li>
-                        <li>Date of Birth</li>
-                        <li>Civil Status</li>
-                    </ul> 
+                    <div class="label-1">
+                        <div class="idInfoLabel ">Full Name</div>
+                        <div ><input type="text"></div>
+                    </div>
+                    <div class="label-2">
+                        <div class="idInfoLabel">Date of Birth</div> 
+                        <div ><input type="date"></div>
+                    </div>   
                 </div>
-                <div class="idInput">
-                   
+                <div class=" idAddress">
+                    <div class="label-3">
+                        <div class="idInfoLabel">
+                            Address
+                        </div>
+                        <input type="text">
+                    </div>
                 </div>
-              
+                <div class="idRadio">
+                    <div class="idInfoLabel">
+                        <div class="label-4">
+                            Civil Status:
+                            <input type="radio" name="radioStatus"> Single 
+                            <input type="radio" name="radioStatus"> Married 
+                        </div>
+                       
+                    </div>
+                    <div class="idInfoLabel">
+                        <div c;ass ="label-5">
+                            Gender:
+                            <input type="radio" name="radioGender"> Male 
+                            <input type="radio" name="radioGender"> Female 
+                            <input type="radio" name="radioGender"> Other 
+                        </div>
+                        
+
+                    </div>          
+                </div>        
+
+                
+                        
+            </div>        
+        </div>
+
+        <div class="formQuestionsContainer">
+            <div class="instructionsHeader">
+                INSTRUCTIONS
+            </div>
+            <div class="instructionsMessage">
+               <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+            <div class="formQuestions">
+                <div class="questionsHeader">
+                    QUESTIONS
+                </div>
+                <div class="ratingHeader">
+                    RATING
+                </div>
+            </div>
+
         </div>
     </div>
-    
-
-
+    </div>
 </body>
 </html>
